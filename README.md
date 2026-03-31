@@ -19,7 +19,6 @@ This system uses a **decoupled, event-driven architecture** to handle high loads
 * **Worker (AWS Lambda):** Polls the queue, generates the PDF using `fpdf2`, and uploads to storage.
 * **Storage (Amazon S3):** Stores the generated PDFs with a **1-day lifecycle policy** for automatic cleanup.
 
-*(Add a screenshot of your AWS Diagram here)*
 <img width="4335" height="1293" alt="image" src="https://github.com/user-attachments/assets/f0233552-8190-406d-befb-9d36a85efa04" />
 
 
